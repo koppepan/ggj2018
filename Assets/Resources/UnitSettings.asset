@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85609bbb4cf7f4e479c42b20b3d3c7c3, type: 3}
+  m_Name: UnitSettings
+  m_EditorClassIdentifier: 
+  settings:
+  - id: blue_large_carrier
+    displayName: 
+    appearanceId: large_carrier
+    isTower: 0
+    cost: 10
+    hitPoint: 500
+    attackPower: 0
+    attackSpeed: 0
+    effectiveRange: 10
+    sensingRange: 0
+    moveSpeed: 1
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 0
+    towerAttackRatio: 0
+    summonId: large_tower
+  - id: blue_small_carrier
+    displayName: 
+    appearanceId: small_carrier
+    isTower: 0
+    cost: 5
+    hitPoint: 200
+    attackPower: 0
+    attackSpeed: 0
+    effectiveRange: 5
+    sensingRange: 0
+    moveSpeed: 2
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 0
+    towerAttackRatio: 0
+    summonId: small_tower
+  - id: blue_unit_1
+    displayName: 
+    appearanceId: unit_1
+    isTower: 0
+    cost: 5
+    hitPoint: 100
+    attackPower: 50
+    attackSpeed: 2
+    effectiveRange: 5
+    sensingRange: 15
+    moveSpeed: 3
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 1
+    towerAttackRatio: 1
+    summonId: 
+  - id: blue_unit_2
+    displayName: 
+    appearanceId: unit_2
+    isTower: 0
+    cost: 10
+    hitPoint: 300
+    attackPower: 100
+    attackSpeed: 2
+    effectiveRange: 5
+    sensingRange: 10
+    moveSpeed: 1.5
+    attackTarget: 1
+    attackPriority: 0
+    characterAttackRatio: 1
+    towerAttackRatio: 1
+    summonId: 
+  - id: large_tower
+    displayName: 
+    appearanceId: large_tower
+    isTower: 1
+    cost: 0
+    hitPoint: 600
+    attackPower: 0
+    attackSpeed: 0
+    effectiveRange: 160
+    sensingRange: 0
+    moveSpeed: 0
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 0
+    towerAttackRatio: 0
+    summonId: 
+  - id: red_large_carrier
+    displayName: 
+    appearanceId: large_carrier
+    isTower: 0
+    cost: 80
+    hitPoint: 200
+    attackPower: 0
+    attackSpeed: 0
+    effectiveRange: 0
+    sensingRange: 0
+    moveSpeed: 0.5
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 0
+    towerAttackRatio: 0
+    summonId: large_tower
+  - id: red_small_carrier
+    displayName: 
+    appearanceId: small_carrier
+    isTower: 0
+    cost: 50
+    hitPoint: 100
+    attackPower: 0
+    attackSpeed: 0
+    effectiveRange: 5
+    sensingRange: 0
+    moveSpeed: 2.5
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 0
+    towerAttackRatio: 0
+    summonId: small_tower
+  - id: red_unit_1
+    displayName: 
+    appearanceId: unit_1
+    isTower: 0
+    cost: 50
+    hitPoint: 150
+    attackPower: 50
+    attackSpeed: 1
+    effectiveRange: 50
+    sensingRange: 200
+    moveSpeed: 3
+    attackTarget: 1
+    attackPriority: 0
+    characterAttackRatio: 1
+    towerAttackRatio: 1
+    summonId: 
+  - id: red_unit_2
+    displayName: 
+    appearanceId: unit_2
+    isTower: 0
+    cost: 50
+    hitPoint: 100
+    attackPower: 30
+    attackSpeed: 2
+    effectiveRange: 50
+    sensingRange: 350
+    moveSpeed: 1.5
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 1
+    towerAttackRatio: 1
+    summonId: 
+  - id: small_tower
+    displayName: 
+    appearanceId: small_tower
+    isTower: 1
+    cost: 0
+    hitPoint: 250
+    attackPower: 0
+    attackSpeed: 0
+    effectiveRange: 80
+    sensingRange: 0
+    moveSpeed: 0
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 0
+    towerAttackRatio: 0
+    summonId: 
+  - id: yellow_large_carrier
+    displayName: 
+    appearanceId: large_carrier
+    isTower: 0
+    cost: 10
+    hitPoint: 500
+    attackPower: 0
+    attackSpeed: 0
+    effectiveRange: 0
+    sensingRange: 0
+    moveSpeed: 1
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 0
+    towerAttackRatio: 0
+    summonId: large_tower
+  - id: yellow_small_carrier
+    displayName: 
+    appearanceId: small_carrier
+    isTower: 0
+    cost: 10
+    hitPoint: 100
+    attackPower: 10
+    attackSpeed: 0
+    effectiveRange: 0
+    sensingRange: 0
+    moveSpeed: 0
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 0
+    towerAttackRatio: 0
+    summonId: small_tower
+  - id: yellow_unit_1
+    displayName: 
+    appearanceId: unit_1
+    isTower: 0
+    cost: 5
+    hitPoint: 100
+    attackPower: 50
+    attackSpeed: 2
+    effectiveRange: 5
+    sensingRange: 10
+    moveSpeed: 3
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 1
+    towerAttackRatio: 1
+    summonId: 
+  - id: yellow_unit_2
+    displayName: 
+    appearanceId: unit_2
+    isTower: 0
+    cost: 10
+    hitPoint: 300
+    attackPower: 50
+    attackSpeed: 2
+    effectiveRange: 5
+    sensingRange: 15
+    moveSpeed: 1.5
+    attackTarget: 0
+    attackPriority: 0
+    characterAttackRatio: 1
+    towerAttackRatio: 1
+    summonId: 
